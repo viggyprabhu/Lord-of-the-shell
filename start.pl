@@ -1,18 +1,14 @@
-#!/usr/bin/perl
-
-#use gameBase;
-
-print "Welcome to Lord of the Shell game:\n";
-my $levels = getNumOfLevels();
-#cleanLevels($levels);
-startGame("/home/viggy/ShellGame/Game/",$levels);
-#playAllLevels();
-#finishGame();
+#!/usr/bin/perl -w
+use strict;
+use File::Spec::Functions qw(rel2abs);
+use File::Basename;
+my $homeDir = dirname(rel2abs($0));
 
 sub startGame()
 {
 	my($gameDir,$levels) = @_;
-        for($level=1;$level<=$levels;$level++)
+        my $level;
+	for($level=1;$level<=$levels;$level++)
 	{
 		my $cleanScript = getCleanScript($gameDir,$level);
 #		print "CleanScript = $cleanScript";
@@ -55,6 +51,7 @@ sub finalGreetings()
 sub waitForLevelCompletion()
 {
 	my($level) = @_;
+	my $input;
 	print "Level $level Complete (y/n) :";
 	while(defined($input=<STDIN>))
 	{
@@ -72,6 +69,7 @@ sub waitForLevelCompletion()
 sub exitGame()
 {
 	my($gameDir,$level) = @_;
+	my $input;
 	print "Want to exit game (y/n) :";
         while(defined($input=<STDIN>))
 	{
@@ -168,6 +166,7 @@ sub getCleanScript()
 sub cleanLevels()
 {
 	my $i = $_[0];
+	my $level;
 	for($level=0;$level<$i;$level++)
 	{
 		print "cleaning $level\n";
@@ -178,7 +177,20 @@ sub cleanLevels()
 
 sub getNumOfLevels()
 {
-	
-	return 6;
+	my $gameDir = $_[0];
+	my $i=0;
+#	while(1)
+#	{
+#		
+#	}	
+	return 7;
 
 }
+
+
+print "Welcome to Lord of the Shell game:\n";
+my $gameDir = $homeDir."/Game/";
+
+my $levels = getNumOfLevels();
+
+&startGame($gameDir,$levels);
