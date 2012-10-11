@@ -1,0 +1,13 @@
+This game has been developed to help users check their shell knowledge. It also can be used to demonstrate shell commands using the game.
+
+How to Play:
+
+1. Just execute start.pl script.
+
+	./start.pl
+
+2. As you keep getting hints on the console, open another console and execute commands as pointed by hints. Once you have executed the command that you think is correct, enter "y" in the game console to go to next level.
+
+3. If you want to quit in between, just say "n" for that level and then "y" for the prompt to quit the game and get back the console.
+
+
