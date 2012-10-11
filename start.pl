@@ -179,11 +179,28 @@ sub getNumOfLevels()
 {
 	my $gameDir = $_[0];
 	my $i=0;
-#	while(1)
-#	{
-#		
-#	}	
-	return 7;
+	while(1)
+	{
+		my $tmp = $i+1;
+		if(-d $gameDir."/".$tmp)
+		{
+			$i++;
+		}
+		else
+		{
+			last;
+		}		
+	}	
+	if($i==0)
+	{
+		print "No levels exists in Game Dir. Please check your game dir,$gameDir";
+		exit();
+	}
+	else
+	{
+		print "Number of Levels : $i\n";
+		return $i;
+	}
 
 }
 
@@ -191,6 +208,6 @@ sub getNumOfLevels()
 print "Welcome to Lord of the Shell game:\n";
 my $gameDir = $homeDir."/Game/";
 
-my $levels = getNumOfLevels();
+my $levels = &getNumOfLevels($gameDir);
 
 &startGame($gameDir,$levels);
