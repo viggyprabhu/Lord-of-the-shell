@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo ">>>You are home sick. Go to your home and enter your Desktop.\n";

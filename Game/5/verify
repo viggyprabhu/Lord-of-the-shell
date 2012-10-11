@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#echo "Executing verify Level 2 ";
+
+box="/tmp/pandora/SHINYLAMP";
+
+if [ -d "$box" ]; then
+	exit 0
+fi
+exit 1

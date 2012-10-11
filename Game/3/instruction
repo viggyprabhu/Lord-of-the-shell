@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#echo "Executing instruction Level 2 ";
+echo "Instruction for Level 3: \n";
+echo ">>>Go inside this directory and create a path(link) to a cave named 'pandora' in '/tmp' planet.\n";

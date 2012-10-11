@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#echo "Executing instruction Level 2 ";
+echo "Instruction for Level 5: \n";
+echo ">>>Good. Now that you have cleared all the cobwebs you will be able to see things in the cave more easily.\n";
+echo ">>>Try to search for some things that may be helpful for your journey.\n";
+sleep 5;
+echo ">>>Look there. There is a DUSTYLAMP. With your shell power, rub it and make it a SHINYLAMP.\n";

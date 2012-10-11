@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#echo "Executing verify Level 2 ";
+
+link="/home/$USER/Desktop/$USER/path"
+
+if [ -L "$link" ]; then
+	cd $link
+	pwd=`pwd -P`
+	if [ "$pwd" = "/tmp/pandora" ]; then
+		exit 0
+	fi
+fi
+exit 1

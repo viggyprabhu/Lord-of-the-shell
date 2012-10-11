@@ -1,0 +1,9 @@
+#!/bin/sh
+
+#echo "Executing prepare Level 2 ";
+
+touch "/tmp/pandora/cobweb";
+touch "/tmp/pandora/cobweb1";
+touch "/tmp/pandora/cobweb2";
+touch "/tmp/pandora/cobweb3";
+touch "/tmp/pandora/cobweb4";

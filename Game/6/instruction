@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#echo "Executing instruction Level 2 ";
+echo "Instruction for Level 6: \n";
+echo ">>>Now that your lamp is SHINY, look inside it and see if you can find something useful.\n";
+sleep 5;
+echo ">>>There seems to be a small pacakge. Let us quickly open the package.\n";

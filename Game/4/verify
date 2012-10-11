@@ -1,0 +1,27 @@
+#!/bin/sh
+
+#echo "Executing verify Level 2 ";
+
+cob="/tmp/pandora/cobweb";
+cob1="/tmp/pandora/cobweb1";
+cob2="/tmp/pandora/cobweb2";
+cob3="/tmp/pandora/cobweb3";
+cob4="/tmp/pandora/cobweb4";
+
+
+if [ -f "$cob" ]; then
+	exit 1
+fi
+if [ -f "$cob1" ]; then
+	exit 1
+fi
+if [ -f "$cob2" ]; then
+	exit 1
+fi
+if [ -f "$cob3" ]; then
+	exit 1
+fi
+if [ -f "$cob4" ]; then
+	exit 1
+fi
+exit 0

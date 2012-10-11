@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#echo "Executing prepare Level 2 ";
+
+cp package.tar.gz /tmp/pandora/SHINYLAMP	
