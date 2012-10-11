@@ -1,10 +1,30 @@
 #!/bin/sh
 
-#echo "Executing verify Level 2 ";
 
-box="/tmp/pandora/SHINYLAMP";
+cob1="/tmp/pandora/.cobweb1";
+cob2="/tmp/pandora/.cobweb2";
+cob3="/tmp/pandora/.cobweb3";
+cob4="/tmp/pandora/.cobweb4";
+cob5="/tmp/pandora/.cobweb5";
+cob6="/tmp/pandora/.cobweb6";
 
-if [ -d "$box" ]; then
-	exit 0
+
+if [ -f "$cob1" ]; then
+	exit 1
 fi
-exit 1
+if [ -f "$cob2" ]; then
+	exit 1
+fi
+if [ -f "$cob3" ]; then
+	exit 1
+fi
+if [ -f "$cob4" ]; then
+	exit 1
+fi
+if [ -f "$cob5" ]; then
+	exit 1
+fi
+if [ -f "$cob6" ]; then
+	exit 1
+fi
+exit 0

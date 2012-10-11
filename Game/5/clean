@@ -2,4 +2,4 @@
 
 #echo "Executing clean Level 2 ";
 
-rm -rf "/tmp/pandora/SHINYLAMP"; 
+find "/tmp/pandora" -mindepth 1 -name "*" -delete

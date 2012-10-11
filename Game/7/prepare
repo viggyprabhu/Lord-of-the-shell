@@ -2,4 +2,4 @@
 
 #echo "Executing prepare Level 2 ";
 
-mkdir "/tmp/pandora/DUSTYLAMP";
+cp package.tar.gz /tmp/pandora/SHINYLAMP	

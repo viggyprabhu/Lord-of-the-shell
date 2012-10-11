@@ -2,3 +2,4 @@
 
 #echo "Executing clean Level 2 ";
 
+find "/tmp/pandora" -mindepth 1 -name "*" -delete

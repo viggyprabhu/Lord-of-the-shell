@@ -2,7 +2,7 @@
 
 #echo "Executing verify Level 2 ";
 
-box="/tmp/pandora/SHINYLAMP";
+box="/tmp/pandora/SHINYLAMP/package/abc/xyz";
 
 if [ -d "$box" ]; then
 	exit 0

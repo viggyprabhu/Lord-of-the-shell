@@ -1,7 +1,8 @@
 #!/bin/sh
 
 #echo "Executing instruction Level 2 ";
-echo "Instruction for Level 6: \n";
-echo ">>>Now that your lamp is SHINY, look inside it and see if you can find something useful.\n";
+echo "Instruction for Level 5: \n";
+echo ">>>Good. Now that you have cleared all the cobwebs you will be able to see things in the cave more easily.\n";
+echo ">>>Try to search for some things that may be helpful for your journey.\n";
 sleep 5;
-echo ">>>There seems to be a small pacakge. Let us quickly open the package.\n";
+echo ">>>Look there. There is a DUSTYLAMP. With your shell power, rub it and make it a SHINYLAMP.\n";

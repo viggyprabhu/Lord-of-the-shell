@@ -2,4 +2,9 @@
 
 #echo "Executing prepare Level 2 ";
 
-mkdir "/tmp/pandora/DUSTYLAMP";
+touch "/tmp/pandora/.cobweb1";
+touch "/tmp/pandora/.cobweb2";
+touch "/tmp/pandora/.cobweb3";
+touch "/tmp/pandora/.cobweb4";
+touch "/tmp/pandora/.cobweb5";
+touch "/tmp/pandora/.cobweb6";
