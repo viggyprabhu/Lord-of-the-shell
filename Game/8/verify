@@ -1,0 +1,53 @@
+#!/bin/sh
+
+#echo "Executing verify Level 2 ";
+
+pre="/tmp/pocket/gold"
+
+if [ ! -f $pre"1" ]; then
+	exit 1
+fi
+
+if [ ! -f $pre"2" ]; then
+	exit 1
+fi
+if [ ! -f $pre"3" ]; then
+	exit 1
+fi
+if [ ! -f $pre"4" ]; then
+	exit 1
+fi
+if [ ! -f $pre"5" ]; then
+	exit 1
+fi
+if [ ! -f $pre"6" ]; then
+	exit 1
+fi
+if [ ! -f $pre"7" ]; then
+	exit 1
+fi
+if [ ! -f $pre"8" ]; then
+	exit 1
+fi
+if [ ! -f $pre"9" ]; then
+	exit 1
+fi
+if [ ! -f $pre"10" ]; then
+	exit 1
+fi
+if [ ! -f $pre"11" ]; then
+	exit 1
+fi
+if [ ! -f $pre"12" ]; then
+	exit 1
+fi
+if [ ! -f $pre"13" ]; then
+	exit 1
+fi
+if [ ! -f $pre"14" ]; then
+	exit 1
+fi
+if [ ! -f $pre"15" ]; then
+	exit 1
+fi
+exit 0

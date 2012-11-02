@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#echo "Executing instruction Level 2 ";
+echo "Instruction for Level 9: \n";
+echo ">>>Now to keep your gold safe, lock the pocket such that only you have access to  check how much gold you have and also only you have access to remove gold from it\n";

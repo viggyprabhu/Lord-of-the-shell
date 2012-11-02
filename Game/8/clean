@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#echo "Executing clean Level 2 ";
+
+find "/tmp/pandora/SHINYLAMP/package" -mindepth 1 -name "*" -delete

@@ -1,0 +1,26 @@
+#!/bin/sh
+
+#echo "Executing prepare Level 2 ";
+
+baseDir="/tmp/pandora/SHINYLAMP/package"
+mkdir -p $baseDir/abcd/../xyz/pqr
+mkdir /tmp/pocket
+
+touch "$baseDir/gold1"
+touch "$baseDir/gold2"
+touch "$baseDir/gold3"
+touch "$baseDir/gold4"
+touch "$baseDir/gold5"
+
+touch "$baseDir/abcd/gold6"
+touch "$baseDir/abcd/gold7"
+touch "$baseDir/abcd/gold8"
+touch "$baseDir/abcd/gold9"
+touch "$baseDir/abcd/gold10"
+
+touch "$baseDir/xyz/pqr/gold11"
+touch "$baseDir/xyz/pqr/gold12"
+touch "$baseDir/xyz/pqr/gold13"
+touch "$baseDir/xyz/pqr/gold14"
+touch "$baseDir/xyz/pqr/gold15"
+
