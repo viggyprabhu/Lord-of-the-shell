@@ -2,7 +2,7 @@
 
 
 value=`ls -ld /tmp/pocket/ |awk '{print $1;}'` 
-if [ "$value" = "drw-------" ]; then
+if [ "$value" = "drwx------" ]; then
 	return 0;
 fi
 return 1;
